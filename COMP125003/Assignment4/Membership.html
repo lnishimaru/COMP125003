@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!-- Created by Lilian Nishimaru de Souza - Created on June 25, 2019 -->
+    <meta charset="utf-8" />
+    <title>Member Registration</title>
+    <link href="Membership.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div>
+       <header>
+       </header>
+       <div id="allPage">
+       </div>
+       <div id="mainPage">
+       	   Please complete the fields bellow: 
+       	   <fieldset id="formId">
+               <legend>Identification</legend>
+               <form>
+                 <table class="table">
+                   <tr>
+                     <td class="label" >First Name:</td>
+                     <td class="cont"><input id="txtFirst" type="text" size=15 required autofocus/>
+                         <span id="msgFirst" class="classError">
+                         </span>
+
+                     </td>
+                  <tr>
+                     <td class="label">Last Name:</td>
+                     <td class="cont"><input id="txtLast" type="text" size=15/>
+                        <span id="msgLast" class="classError">
+                        </span>
+                     </td>
+                  </tr>
+                  <tr>
+                    <td class="label">Address:</td>
+                    <td class="cont"><input id="txtAddress" type="text" size="30"/><span id="msgAddress" class="classError"></span></td>
+                  </tr>
+                  <tr>
+                    <td class="label">City:</td>
+                    <td class="cont"><input id="txtCity" type="text" size="15"/><span id="msgCity" class="classError"></span></td>
+                  </tr>
+                  <tr>
+                    <td class="label">Postal Code:</td>
+                    <td class="cont"><input id="txtZip" type="text" size="10"/><span id="msgZip" class="classError"></span></td>
+                  </tr>
+                  <tr>
+                    <td class="label">Province:</td>
+                    <td  class="cont"><input id="txtProvince" type="text" size="2" /><span id="msgProvince" class="classError"></span></td>
+                  </tr>
+                  <tr>
+                    <td class="label">Age:</td>
+                    <td class="cont"><input id="txtAge" type="number"/><span id="msgAge" class="classError"></span></td>
+                  </tr>
+                  <tr>
+                    <td class="label">Password:</td>
+                    <td class="cont"><input id="psw1" type="password" required="required"/><span id="msgPsw" class="classError"></span></td>
+                  </tr>
+                  <tr>
+                    <td class="label">Confirm:</td>
+                    <td class="cont"><input id="psw2" type="password" required="required" /><span id="msgPsw2" class="classError"></span>
+                    </td>
+                  </tr>
+                 <tr>
+                    <td class="label">E-mail:</td>
+                    <td class="cont"><input id="txtEmail" type="text" required="required" size="40" /><span id="msgEmail" class="classError"></span>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td class="buttons" colspan="2">
+                    <input id="btnSubmit" type="button" value="Register Now" onclick="validateForm()"/><input id="btnReset" type="button" value="Reset Form" onclick="resetForm()"/></td>
+                 </tr>      
+              </table>
+            </form>
+            </fieldset>
+            <fieldset id="newProfile"><legend>Profile</legend>&nbsp;Member ID:&nbsp;<span id="msgID"></span> </fieldset>
+          </div>
+          <footer>
+            <p><a href="../../../../index.html">Back to Index</a></p>
+            <p id="copy">&copy;&nbsp;Lilian Nishimaru de Souza - COMP125 - Summer 2019</p>
+          </footer>
+      </div>
+    <script src="Membership.js"></script>
+</body>
+</html>

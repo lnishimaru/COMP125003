@@ -1,0 +1,83 @@
+﻿#allPage {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    height: 480px;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('Background2.JPG');
+}
+header {
+    position: absolute;
+    background-color: #01233F;
+    color: #FFFFFF;
+    padding: 2px;
+    height: 100px;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0px;
+    left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('TesteLogo.png');
+    background-repeat: no-repeat;
+}
+
+footer {
+    position: absolute;
+    background-color: #01233F;
+    color: #FFFFFF;
+    padding: 2px;
+    top: 580px;
+    left: 0px;
+    height: 100px;
+    width: 980px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+    footer a {
+        color: white;
+        text-decoration: none;
+    }
+
+        footer a:hover {
+            background-color: white;
+            color: #113f67;
+        }
+
+#copy {
+    font-size: x-small;
+}
+#mainPage {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    width: 780px;
+    height: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+.label {
+    text-align: right;
+    vertical-align: top;
+    width: 400px;
+}
+
+.cont {
+    text-align: left;
+    vertical-align: top;
+    width: 438px;
+}
+legend {
+    color: white;
+}
+.buttons {
+    text-align: center;
+    vertical-align: top;
+}

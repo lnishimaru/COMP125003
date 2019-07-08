@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<!-- Created by Lilian Nishimaru de Souza - Created on May 14, 2019 -->
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="Assignment1Styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="allPage">
+    <header>
+        <img id="logo" alt="BMR Calculator Logo" src="images/logo.png" />
+        <h1> BRM Calculator </h1></header>
+    <form>
+        <table style="width:100%;">
+            <tr>
+                <td id="celName1">Gender</td>
+                <td id="celCont ">
+                    <input name="optGender" type="radio" value="M" checked="checked" id="genderM"/>Male
+                    <input name="optGender" type="radio" value="F" id="genderF"/>Female</td>
+                <td id="celCont2" rowspan="3"><div id="resultLabel"><span id="result">Your BMR: </span></div></td>
+            </tr>
+            <tr>
+                <td id="celName2">Age</td>
+                <td>
+                    <input id="age" name="slideAge" type="number" min="1" max="120" value="1" step="1">
+                </td>
+            </tr>
+            <tr>
+                <td id="celName3">System</td>
+                <td>
+                    <input id="metricSys" name="optSystem" type="radio" value="M" checked="checked" /><span>Metric </span>
+                    <input id="imperialSys" name="optSystem" type="radio" value="I"/><span>Imperial</span></td>
+            </tr>
+             <tr>
+                <td id="celName4">Height</td>
+                <td id="celVal4">
+                    <input id="txtHeight1" type="number" value="0" /><span id="measure1"> m &nbsp; </span>
+                    <input id="txtHeight2" type="number" value="0" /><span id="measure2"> cm</span></td>
+                <td id="celVal4">
+                    <div id="resultCal"><span id="cal">Maintance Calories:</span></div></td>
+            </tr>
+            <tr>
+                <td id="celName5">Weight</td>
+                <td id="celVal5">
+                    <input id="txtWeight1" type="number" value="0" /><span id="measure3"> kg </span>
+                    <input id="txtWeight2" type="number" value="0" /><span id="measure4"> g</span></td>
+                <td id="celVal5">
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td id="celName6">Activity Level</td>
+                <td colspan="2">
+
+                    <input id="Radio1" name="optActive" type="radio" checked="checked"/>Sedentary
+                    <input id="Radio2" name="optActive" type="radio" />Lightly Active
+                    <input id="Radio3" name="optActive" type="radio" />Moderate
+                    <input id="Radio4" name="optActive" type="radio" />Very Active
+                    <input id="Radio5" name="optActive" type="radio" />Super Active</td>
+            </tr>
+            <tr>
+                <td>
+                    <input id="Button1" type="button" value="calculate" /></td>
+                <td>
+                     <input id="Reset1" type="reset" value="reset" /></td>
+                <td>
+                     &nbsp;</td>
+            </tr>
+        </table>
+
+    </form>
+
+    <footer>
+
+        <a href="../../../../index.html">Back to Index</a><br />
+        <p id="copyright">&copy;Copyright Lilian Nishimaru de Souza - COMP125 - Summer 2019</p> </footer>
+</div>
+    <script src="Assignment1.js">
+
+    </script>
+</body>
+</html>

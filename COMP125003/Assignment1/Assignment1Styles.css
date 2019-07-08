@@ -1,0 +1,134 @@
+﻿body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eeac99;
+    color: black;
+}
+header {
+    background-color: #c83349;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 5px;
+    height: 125px;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+}
+#logo {
+    width: 125px;
+    height: 125px;
+    float: left;
+}
+#copyright {
+    font-size: x-small;
+}
+footer {
+    background-color: #c83349;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#allPage {
+    margin-right: auto;
+    padding: 8px;
+    margin-left: auto;
+    border: thin solid #464648;
+    width: 980px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    vertical-align: middle;
+}
+#celName1 {
+    padding: 4px;
+    text-align: right;
+    height: 30px;
+    width: 225px;
+    color: black;
+}
+#celName2 {
+    padding: 4px;
+    text-align: right;
+    height: 30px;
+    width: 225px;
+    color: black;
+}
+#celName3 {
+    padding: 4px;
+    text-align: right;
+    height: 30px;
+    width: 225px;
+    color: black;
+}
+#celName4 {
+    padding: 4px;
+    text-align: right;
+    height: 30px;
+    width: 225px;
+    color: black;
+}
+#celName5 {
+    padding: 4px;
+    text-align: right;
+    height: 30px;
+    width: 225px;
+    color: black;
+}
+#celName6 {
+    padding: 4px;
+    text-align: right;
+    height: 30px;
+    width: 225px;
+    color: black;
+}
+#Button1 {
+    padding: 4px;
+    margin-right: auto;
+    float: right;
+}
+#celCont {
+    padding: 4px;
+    text-align: left;
+    width: 200px;
+}
+#celVal {
+    padding: 4px;
+    text-align: left;
+    width: 200px;
+}
+#txtWeight2 {
+    width: 100px;
+    text-align: left;
+}
+#txtHeight2 {
+    width: 100px;
+    text-align: left;
+}
+#resultLabel {
+    background-color: #c83349;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:x-large;
+}
+#resultCal {
+    background-color: #c83349;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+    footer a:hover {
+        background-color: white;
+        color: #c83349;
+    }
