@@ -96,8 +96,11 @@
     <Content Include="Assignment4\Membership.css" />
     <Content Include="Assignment4\Membership.html" />
     <Content Include="Assignment4\Membership.js" />
-    <Content Include="Assignment4\Teste.html" />
-    <Content Include="Assignment4\TesteLogo.png" />
+    <Content Include="Assignment5\Assignment5.html" />
+    <Content Include="Assignment5\Assignment5.js" />
+    <Content Include="Assignment5\images\bugT.png" />
+    <Content Include="Assignment5\images\landscape.jpg" />
+    <Content Include="Assignment5\index.html" />
     <Content Include="Ch01Code\Chapter\images\blanket.jpg" />
     <Content Include="Ch01Code\Chapter\images\bluestem.jpg" />
     <Content Include="Ch01Code\Chapter\images\flower.png" />
@@ -278,6 +281,82 @@
     <Content Include="Ch07Code\HandsOnProject7-5\modernizr.custom.65897.js" />
     <Content Include="Ch07Code\HandsOnProject7-5\script.js" />
     <Content Include="Ch07Code\HandsOnProject7-5\styles.css" />
+    <Content Include="Chapter09_Solutions\Chapter\images\ewis.png" />
+    <Content Include="Chapter09_Solutions\Chapter\modernizr.custom.65897.js" />
+    <Content Include="Chapter09_Solutions\Chapter\order.htm" />
+    <Content Include="Chapter09_Solutions\Chapter\order2.htm" />
+    <Content Include="Chapter09_Solutions\Chapter\results.htm" />
+    <Content Include="Chapter09_Solutions\Chapter\script.js" />
+    <Content Include="Chapter09_Solutions\Chapter\script2.js" />
+    <Content Include="Chapter09_Solutions\Chapter\script3.js" />
+    <Content Include="Chapter09_Solutions\Chapter\styles.css" />
+    <Content Include="Chapter09_Solutions\Chapter\styleshh.css" />
+    <Content Include="Chapter09_Solutions\HandsOnProject9-1\index.htm" />
+    <Content Include="Chapter09_Solutions\HandsOnProject9-1\modernizr.custom.65897.js" />
+    <Content Include="Chapter09_Solutions\HandsOnProject9-1\preview.htm" />
+    <Content Include="Chapter09_Solutions\HandsOnProject9-1\script.js" />
+    <Content Include="Chapter09_Solutions\HandsOnProject9-1\styles.css" />
+    <Content Include="Chapter09_Solutions\HandsOnProject9-2\index.htm" />
+    <Content Include="Chapter09_Solutions\HandsOnProject9-2\modernizr.custom.65897.js" />
+    <Content Include="Chapter09_Solutions\HandsOnProject9-2\results.htm" />
+    <Content Include="Chapter09_Solutions\HandsOnProject9-2\script.js" />
+    <Content Include="Chapter09_Solutions\HandsOnProject9-2\styles.css" />
+    <Content Include="Chapter09_Solutions\HandsOnProject9-3\index.htm" />
+    <Content Include="Chapter09_Solutions\HandsOnProject9-3\modernizr.custom.65897.js" />
+    <Content Include="Chapter09_Solutions\HandsOnProject9-3\results.htm" />
+    <Content Include="Chapter09_Solutions\HandsOnProject9-3\script.js" />
+    <Content Include="Chapter09_Solutions\HandsOnProject9-3\styles.css" />
+    <Content Include="Chapter09_Solutions\HandsOnProject9-4\index.htm" />
+    <Content Include="Chapter09_Solutions\HandsOnProject9-4\modernizr.custom.65897.js" />
+    <Content Include="Chapter09_Solutions\HandsOnProject9-4\results.htm" />
+    <Content Include="Chapter09_Solutions\HandsOnProject9-4\script.js" />
+    <Content Include="Chapter09_Solutions\HandsOnProject9-4\styles.css" />
+    <Content Include="Chapter09_Solutions\HandsOnProject9-5\index.htm" />
+    <Content Include="Chapter09_Solutions\HandsOnProject9-5\modernizr.custom.65897.js" />
+    <Content Include="Chapter09_Solutions\HandsOnProject9-5\results.htm" />
+    <Content Include="Chapter09_Solutions\HandsOnProject9-5\script.js" />
+    <Content Include="Chapter09_Solutions\HandsOnProject9-5\styles.css" />
+    <Content Include="Chapter10\Chapter10\Chapter\modernizr.custom.64298.js" />
+    <Content Include="Chapter10\Chapter10\Chapter\oaklogo.png" />
+    <Content Include="Chapter10\Chapter10\Chapter\oaktop.css" />
+    <Content Include="Chapter10\Chapter10\Chapter\oaktop.htm" />
+    <Content Include="Chapter10\Chapter10\Chapter\script.js" />
+    <Content Include="Chapter10\Chapter10\HandsOnProject10-1\images\frog.jpg" />
+    <Content Include="Chapter10\Chapter10\HandsOnProject10-1\images\frog_01.png" />
+    <Content Include="Chapter10\Chapter10\HandsOnProject10-1\images\frog_01_sm.png" />
+    <Content Include="Chapter10\Chapter10\HandsOnProject10-1\images\frog_02.png" />
+    <Content Include="Chapter10\Chapter10\HandsOnProject10-1\images\frog_02_sm.png" />
+    <Content Include="Chapter10\Chapter10\HandsOnProject10-1\images\frog_03.png" />
+    <Content Include="Chapter10\Chapter10\HandsOnProject10-1\images\frog_03_sm.png" />
+    <Content Include="Chapter10\Chapter10\HandsOnProject10-1\images\frog_04.png" />
+    <Content Include="Chapter10\Chapter10\HandsOnProject10-1\images\frog_04_sm.png" />
+    <Content Include="Chapter10\Chapter10\HandsOnProject10-1\images\frog_05.png" />
+    <Content Include="Chapter10\Chapter10\HandsOnProject10-1\images\frog_05_sm.png" />
+    <Content Include="Chapter10\Chapter10\HandsOnProject10-1\images\frog_06.png" />
+    <Content Include="Chapter10\Chapter10\HandsOnProject10-1\images\frog_06_sm.png" />
+    <Content Include="Chapter10\Chapter10\HandsOnProject10-1\index.htm" />
+    <Content Include="Chapter10\Chapter10\HandsOnProject10-1\modernizr.custom.05819.js" />
+    <Content Include="Chapter10\Chapter10\HandsOnProject10-1\script.js" />
+    <Content Include="Chapter10\Chapter10\HandsOnProject10-1\styles.css" />
+    <Content Include="Chapter10\Chapter10\HandsOnProject10-3\images\frog.jpg" />
+    <Content Include="Chapter10\Chapter10\HandsOnProject10-3\images\frog_01.png" />
+    <Content Include="Chapter10\Chapter10\HandsOnProject10-3\images\frog_01_sm.png" />
+    <Content Include="Chapter10\Chapter10\HandsOnProject10-3\images\frog_02.png" />
+    <Content Include="Chapter10\Chapter10\HandsOnProject10-3\images\frog_02_sm.png" />
+    <Content Include="Chapter10\Chapter10\HandsOnProject10-3\images\frog_03.png" />
+    <Content Include="Chapter10\Chapter10\HandsOnProject10-3\images\frog_03_sm.png" />
+    <Content Include="Chapter10\Chapter10\HandsOnProject10-3\images\frog_04.png" />
+    <Content Include="Chapter10\Chapter10\HandsOnProject10-3\images\frog_04_sm.png" />
+    <Content Include="Chapter10\Chapter10\HandsOnProject10-3\images\frog_05.png" />
+    <Content Include="Chapter10\Chapter10\HandsOnProject10-3\images\frog_05_sm.png" />
+    <Content Include="Chapter10\Chapter10\HandsOnProject10-3\images\frog_06.png" />
+    <Content Include="Chapter10\Chapter10\HandsOnProject10-3\images\frog_06_sm.png" />
+    <Content Include="Chapter10\Chapter10\HandsOnProject10-3\index.htm" />
+    <Content Include="Chapter10\Chapter10\HandsOnProject10-3\modernizr.custom.05819.js" />
+    <Content Include="Chapter10\Chapter10\HandsOnProject10-3\script.js" />
+    <Content Include="Chapter10\Chapter10\HandsOnProject10-3\styles.css" />
+    <Content Include="Lab09\Lab09.html" />
+    <Content Include="Lab09\Lab09B.html" />
     <Content Include="TestWindow\TestPop.html" />
     <Content Include="TestWindow\TestWindow.html" />
     <Content Include="Web.config" />
@@ -285,11 +364,29 @@
     <Content Include="Week08\LabEx.js" />
     <Content Include="Week08\Week08.html" />
     <Content Include="Week08\Week08.js" />
+    <Content Include="Week09\Order.html" />
+    <Content Include="Week09\order2.htm" />
+    <Content Include="Week09\Results.htm" />
+    <Content Include="Week09\Script2.js" />
+    <Content Include="Week09\Script3.js" />
+    <Content Include="Week10\Map.html" />
+    <Content Include="Week10\OakTopHouse.html" />
+    <Content Include="Week10\OaktopHouse.js" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Chapter09_Solutions\Chapter\.vs\Chapter\v15\.suo" />
+    <Content Include="Chapter09_Solutions\Chapter\.vs\config\applicationhost.config" />
+    <Content Include="Chapter09_Solutions\Chapter\.vs\ProjectSettings.json" />
+    <Content Include="Chapter09_Solutions\Chapter\.vs\slnx.sqlite" />
+    <Content Include="Chapter09_Solutions\Chapter\.vs\VSWorkspaceState.json" />
+    <Content Include="Chapter09_Solutions\HandsOnProject9-1\.vs\config\applicationhost.config" />
+    <Content Include="Chapter09_Solutions\HandsOnProject9-1\.vs\HandsOnProject9-1\v15\.suo" />
+    <Content Include="Chapter09_Solutions\HandsOnProject9-1\.vs\ProjectSettings.json" />
+    <Content Include="Chapter09_Solutions\HandsOnProject9-1\.vs\slnx.sqlite" />
+    <Content Include="Chapter09_Solutions\JavaScript_6e_Ch09_Solutions.docx" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -300,6 +397,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Assignment1\images\" />
+    <Folder Include="Chapter10\Chapter10\HandsOnProject10-2\" />
+    <Folder Include="Chapter10\Chapter10\HandsOnProject10-4\" />
+    <Folder Include="Chapter10\Chapter10\HandsOnProject10-5\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

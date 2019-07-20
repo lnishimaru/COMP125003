@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+    <p>
+        You Typed:</p>
+    <p>
+        <span id="result"></span>
+
+<script>
+    function parseData() {
+        var formData = document.cookie;
+        window.alert(formData);
+        var formArray = [];
+        formArray = formData.split("; ");
+        for (var i = 0; i < formArray.length; i++) {
+            var result = document.getElementById("result");
+            result.innerHTML = formArray[i];
+        }
+    }
+
+    if (window.addEventListener) {
+        window.addEventListener("load", parseData, false);
+    } else if (window.attachEvent) {
+        window.attachEvent("onload", parseData);
+    }
+</script>
+</body>
+</html>
