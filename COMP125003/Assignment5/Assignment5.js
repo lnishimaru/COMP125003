@@ -5,8 +5,9 @@ var ctx = canvas.getContext("2d");
 var fps = 10;
 var timer = 0;
 var caught = false;
+var fixedHeight = 500; 
 canvas.width = 800;
-canvas.height = 540;
+canvas.height = 600;
 document.body.appendChild(canvas);
 
 // Background image
@@ -36,6 +37,7 @@ var monstersCaught = 0;
 var keysDown = {};
 
 addEventListener("mousedown", SmashFunction, false);
+addEventListener("touchstart", SmashFunction, false);
 
 function SmashFunction(e) {
     hero.x = e.clientX;
@@ -66,17 +68,21 @@ function SmashFunction(e) {
         reset();
         render();
     }
+    // link back to index
+    if (BackToIndex(hero.x,hero.y)) {
+        window.location = "http://studentweb.cencol.ca/lnishima/";
+    }
 }
 
 // Reset the game when the player catches a monster
 var reset = function () {
     hero.x = canvas.width / 2;
-    hero.y = canvas.height / 2;
+    hero.y = fixedHeight / 2;
 
     // Throw the monster somewhere on the screen randomly
     monster.x = 40 + (Math.random() * (canvas.width - 70));
     do {
-        monster.y = 40 + (Math.random() * (canvas.height - 70));
+        monster.y = 40 + (Math.random() * (fixedHeight - 70));
     }
     while (monster.y < 100)
 
@@ -106,6 +112,20 @@ function ResetSpeed(x, y) {
     }
     return false;
 };
+
+//Back to Index
+function BackToIndex(x, y) {
+
+    if (x > (10)
+        && x < (140)
+        && y > (510)
+        && y < (545)
+    ) {
+        return true;
+    }
+    return false;
+};
+
 // Draw everything
 var render = function () {
     if (bgReady) {
@@ -130,7 +150,7 @@ var render = function () {
     ctx.textBaseline = "top";
     ctx.fillText("Catch the Bug", 295, 10);
     ctx.font = "20px Arial";
-    ctx.fillText("Bugs caught: " + monstersCaught, 10, 70);
+    ctx.fillText("Bugs caught: " + monstersCaught, 10, 74);
 
     // Reset Score Button
     ctx.strokeStyle = "rgb(255, 255, 255)";
@@ -138,14 +158,27 @@ var render = function () {
     ctx.stroke();
     ctx.fillStyle = "rgb(255, 255, 255)";
     ctx.font = "20px Arial";
-    ctx.fillText("Reset Score", 515, 71);
+    ctx.fillText("Reset Score", 515, 74);
 
     // Reset Speed Button
     ctx.rect(655, 70, 140, 25);
     ctx.stroke();
     ctx.fillStyle = "rgb(255, 255, 255)";
     ctx.font = "20px Arial";
-    ctx.fillText("Reset Speed", 665, 71);
+    ctx.fillText("Reset Speed", 665, 74);
+
+    // Footer
+    ctx.fillStyle = "rgb(14, 102, 95)";
+    ctx.fillRect(0, 500, 800, 100)
+    ctx.fillStyle = "rgb(255, 255, 255)";
+    ctx.font = "18px Arial";
+    ctx.textAlign = "left";
+    ctx.textBaseline = "top";
+    ctx.fillText("Back to Index", 10, 510);
+    ctx.font = "12px Arial";
+    ctx.textAlign = "left";
+    ctx.textBaseline = "top";
+    ctx.fillText("@ Lilian Nishimaru de Souza - COMP125 - Summer 2019", 10, 540);
 };
 
 // The main game loop
