@@ -49,7 +49,7 @@ function getWeather(evt) {
       longitude = -73.7120832;
    }
    /* To make this app work, you must replace the text "apikey" in the following statement with a valid API key */
-   var url = "https://api.forecast.io/forecast/apikey/" + latitude + "," + longitude + "?callback=getForecast";
+    var url = "https://api.forecast.io/forecast/8ad6ca745ce56ab9703576aff3517925/" + latitude + "," + longitude + "?callback=getForecast";
    var script = document.createElement("script");
    script.id = "jsonp";
    script.src = url;

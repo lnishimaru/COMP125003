@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<!-- Created by Lilian Nishimaru de Souza - Summer 2019 - COMP125 -->
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Assignment 6</title>
+    <link href="Assignment6Styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="allPage">
+        <header>
+            <p>Photo Gallery With Ajax and Jquery</p>
+            <button id="button">Load File</button>
+        </header>
+        <div class="movieStrip"></div>
+        <div class="mainContainter">
+            <div class="previous"><img src="images/arrow.png" class="arrowPrevious"/></div>
+            <div class="next"><img src="images/arrow.png" class="arrowNext"/></div>         
+            <div class="longContainer">
+                <div class="item" id="pic0"></div>
+                <div class="item" id="pic1"></div>
+                <div class="item" id="pic2"></div>
+                <div class="item" id="pic3"></div>
+                <div class="item" id="pic4"></div>
+                <div class="item" id="pic5"></div>
+                <div class="item" id="pic6"></div>
+                <div class="item" id="pic7"></div>
+                <div class="item" id="pic8"></div>
+            </div>
+        </div>
+        <div class="movieStrip2"></div>
+        <footer>
+            <p><a href="../../../../index.html">Back to Index</a></p>
+        <p id="copy">&copy;&nbsp;Lilian Nishimaru de Souza - COMP125 Summer 2019 </p>
+        </footer>
+    </div>
+
+
+
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var main_width = $(".mainContainter").width();
+            var long_container = $(".longContainer");
+            var item = $(".item");
+
+            var slide_number = 0;
+            
+            long_container.css("width", main_width * 3,05);
+            
+            item.css("width", long_container.width() / 9);
+
+            $(".arrowNext").click(function () {
+                if (slide_number < 6) {
+                    slide_number++;
+                    if (slide_number == 6) {
+                        $(".arrowNext").animate({ opacity: 0 });
+                    } else {
+                        $(".arrowNext").animate({ opacity: 1 });
+                    }
+                    if (slide_number == 0) {
+                        $(".arrowPrevious").animate({ opacity: 0 });
+                    } else {
+                        $(".arrowPrevious").animate({ opacity: 1 });
+                    }
+                    var item_width = $(".item").width();
+                    var pixels_moved = item_width * slide_number;
+                    long_container.animate({
+                        marginLeft: -pixels_moved
+                    });
+                }   
+            });
+            $(".arrowPrevious").click(function () {
+                if (slide_number > 0) {
+                    slide_number--;
+                    if (slide_number == 0) {
+                        $(".arrowPrevious").animate({ opacity: 0 });
+                    } else {
+                        $(".arrowPrevious").animate({ opacity: 1 });
+                    }
+                    if (slide_number == 6) {
+                        $(".arrowNext").animate({ opacity: 0 });
+                    } else {
+                        $(".arrowNext").animate({ opacity: 1 });
+                    }
+                    var item_width = $(".item").width();
+                    var pixels_moved = item_width * slide_number;
+                    long_container.animate({
+                        marginLeft: -pixels_moved
+                    });
+                }
+            });
+        });
+
+        $('#button').click(function () {
+            $.ajax({
+                type: 'GET',
+                url: 'pictureList.json',
+                dataType: 'json',
+                success: function (data) {
+                    var pics = data;
+                    var number = 0;
+                    for (number = 0; number < 9; number++) {
+                        var picName = "pic" + number;
+                        var address = "images/" + pics.pictures[number];
+                        document.getElementById(picName).style.backgroundImage = "url(" + address + ")";
+                    }
+                }
+            });
+        });
+
+    </script>
+</body>
+</html>
